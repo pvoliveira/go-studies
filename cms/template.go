@@ -21,3 +21,9 @@ type Post struct {
 	DatePublished time.Time
 	Comments      []*Comment
 }
+
+type Comment struct {
+	Author        string
+	Comment       string
+	DatePublished time.Time
+}
